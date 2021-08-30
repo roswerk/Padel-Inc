@@ -1,0 +1,149 @@
+body, header, footer{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Overalls */
+.center{
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.card-header{
+  font-weight: bold;
+}
+
+
+
+
+
+/* Navabr */
+.logo{
+  width: auto;
+  height: 9vh;
+}
+/* Make navbar stick to top */
+.navbar{
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+/* Navbar on right - but only when its not collapsed */
+@media only screen and (min-width: 992px) {
+  .nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    margin-right: 10vw;
+  }
+}
+
+
+.quienesSomos{
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+
+/* Canchas */
+.icons{
+  width: 2%;
+  height: auto;
+}
+
+.cancha{
+  height: 60vh;
+}
+
+
+.anchors{
+  padding-top: 100px; 
+  margin-top: -100px;
+}
+
+
+
+/* Contactos */
+.card-header{
+  text-align: left;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=email], select, textarea, .submitBtn {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+.submitBtn{
+  background-color: #161c2d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+.submitBtn:hover {
+  background-color: #2e323d;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+/* Movil */
+@media only screen and (max-width: 992px) {
+
+/* Main Carrousel */
+.carrousel{
+  margin-top: 25%;
+}
+.w-100{
+height: 35%;
+}
+
+.center{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* Canchas */
+
+.cancha{
+  height: 30vh;
+}
+
+.icons{
+  width: 8%;
+  height: auto;
+  margin-left: 5vw;
+}
+
+
+}
