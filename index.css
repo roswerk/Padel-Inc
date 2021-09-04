@@ -110,6 +110,14 @@ input[type=text], input[type=email], input[type=name], select, textarea, .submit
 }
 
 
+.instalacionesImg{
+  height: 45vh;
+}
+
+/* Instalaciones Cards */
+.card-title{
+  margin-top: 5%;
+}
 
 
 
@@ -145,5 +153,9 @@ height: 35%;
   margin-left: 5vw;
 }
 
+/* Instalaciones */
+.instalacionesImg{
+  height: 30vh;
+}
 
 }
