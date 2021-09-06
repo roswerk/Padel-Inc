@@ -11,10 +11,14 @@ body, header, footer{
   margin-bottom: 5%;
 }
 
+.columns-center{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .card-header{
   font-weight: bold;
 }
-
 
 
 
